@@ -3,7 +3,9 @@ import os, time, cv2, numpy as np, tensorflow as tf
 from tensorflow import keras
 from collections import deque
 
-MODEL = r"C:\Users\kumar\OneDrive\Desktop\kavin proj\out_wsl\best_alltrained.keras"  # Windows path
+MODEL = r"C:\Users\kumar\OneDrive\Desktop\kavin proj\out_wsl\best_alltrained.keras"
+
+ # Windows path
 # If running in WSL, use:
 # MODEL = r"/mnt/c/Users/kumar/OneDrive/Desktop/kavin proj/out_wsl/drowsy_mnv2_retrained.keras"
 
