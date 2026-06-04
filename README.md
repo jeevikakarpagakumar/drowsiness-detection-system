@@ -1,12 +1,66 @@
-# Driver Drowsiness Detection System using MobileNetV2
+# AI-Powered Driver Drowsiness Detection System using MobileNetV2
 
-A real-time driver drowsiness detection system that leverages **MobileNetV2** and computer vision techniques to classify a driver's state as **Alert** or **Drowsy** using facial images. The system is optimized for deployment on lightweight embedded platforms such as Raspberry Pi, making it suitable for intelligent transportation and road safety applications.
+An **Artificial Intelligence (AI) and Computer Vision-based Driver Drowsiness Detection System** that uses **Deep Learning** to classify a driver's state as **Alert** or **Drowsy** in real time. The system leverages **MobileNetV2**, a pre-trained Convolutional Neural Network (CNN), and Transfer Learning techniques to achieve high accuracy while maintaining low computational requirements for deployment on edge devices such as Raspberry Pi.
 
 ---
 
-## Overview
+## AI Components Used
 
-Driver fatigue is one of the leading causes of road accidents worldwide. Traditional monitoring methods often require additional sensors, making them expensive and inconvenient. This project provides a camera-based solution that automatically detects driver drowsiness from facial features using deep learning.
+This project incorporates multiple Artificial Intelligence techniques:
+
+* **Deep Learning** using MobileNetV2 CNN
+* **Transfer Learning** from ImageNet pre-trained weights
+* **Computer Vision** for facial image analysis
+* **Image Classification** for Alert vs Drowsy prediction
+* **Data Augmentation** for improved model generalization
+* **Edge AI Deployment** using TensorFlow Lite FP16 optimization
+
+Unlike traditional rule-based systems, the model learns facial patterns associated with drowsiness directly from thousands of training images, enabling intelligent and adaptive predictions.
+
+---
+
+## Problem Statement
+
+Driver fatigue is one of the major causes of road accidents worldwide. Existing monitoring systems often rely on wearable sensors or specialized hardware, making them expensive and inconvenient.
+
+This project aims to develop an **AI-powered real-time drowsiness detection system** that automatically analyzes a driver's facial features through a camera feed and predicts whether the driver is alert or drowsy. The solution is designed to be lightweight, accurate, and deployable on embedded platforms.
+
+---
+
+## Key AI Features
+
+* Deep Learning-based Driver State Classification
+
+* Transfer Learning using MobileNetV2
+
+* Automated Face Detection and Feature Extraction
+
+* Real-Time AI Inference
+
+* TensorFlow Lite Edge AI Deployment
+
+* Multi-Dataset Training for Better Generalization
+
+* High Accuracy (97.55%)
+
+---
+
+## Why This Is an AI Project
+
+This project belongs to the following AI domains:
+
+* Artificial Intelligence (AI)
+* Machine Learning (ML)
+* Deep Learning (DL)
+* Computer Vision (CV)
+* Edge AI
+
+The system learns visual representations of drowsiness from data rather than relying on manually programmed rules, making it a true AI-powered solution.
+
+
+---
+
+## Proposed Overview
 
 The proposed system:
 
