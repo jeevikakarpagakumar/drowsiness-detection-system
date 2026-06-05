@@ -85,16 +85,26 @@ The proposed system:
 
 ---
 
-## Dataset Sources
+## Dataset Links
 
-The model was trained using a combination of publicly available and custom datasets.
+The model was trained using multiple publicly available datasets along with a custom dataset.
 
-| Dataset                         | Description                         |
-| ------------------------------- | ----------------------------------- |
-| Driver Drowsiness Dataset (DDD) | Kaggle Dataset                      |
-| NTHU DDD Dataset                | National Tsing Hua University CVLab |
-| Yawn Dataset                    | Facial yawning image dataset        |
-| Custom Dataset                  | Team-collected images               |
+| Dataset | Description | Link |
+|----------|-------------|------|
+| Driver Drowsiness Dataset (DDD) | Driver drowsiness image dataset | [Dataset Link](https://www.kaggle.com/datasets/ismailnasri20/driver-drowsiness-dataset-ddd?utm_source=chatgpt.com) |
+| NTHU Driver Drowsiness Detection Dataset | National Tsing Hua University CVLab dataset | [Dataset Link](https://cv.cs.nthu.edu.tw/php/callforpaper/datasets/DDD/?utm_source=chatgpt.com) |
+| Yawn Dataset | Facial yawning image dataset | [Dataset Link](https://www.kaggle.com/datasets/davidvazquezcic/yawn-dataset?utm_source=chatgpt.com) |
+| Custom Dataset | Additional custom-collected images used for training | [Google Drive](https://drive.google.com/drive/folders/1TJlU94BjFfWoZj9BMjLEUDucXtG1XIwj?usp=share_link) |
+
+### Dataset Distribution
+
+The final training dataset was created by combining:
+- Driver Drowsiness Dataset (DDD)
+- NTHU Driver Drowsiness Detection Dataset
+- Yawn Dataset
+- Custom Dataset
+
+The datasets were automatically merged, preprocessed, face-cropped, resized, and split into training, validation, and testing sets through the project's automated data pipeline.
 
 ---
 
